@@ -234,7 +234,7 @@ INSTALLED_APPS = [
     "django_filters",
     "django_redis",
     # Local apps
-    "api",
+    # "mysite.api",
 ]
 
 MIDDLEWARE = [

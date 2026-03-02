@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 
 class ApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'api'
+    name = 'mysite.api'
     
     def ready(self):
         # Import signals to connect them
